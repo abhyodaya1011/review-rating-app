@@ -1,4 +1,4 @@
-# review-rating-app
+Review-rating Application
 
 This is a full-stack application for managing product reviews. It features a Node.js backend and a Next.js frontend.
 
