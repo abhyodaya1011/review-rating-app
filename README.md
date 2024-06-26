@@ -29,23 +29,18 @@ This is a full-stack application for managing product reviews. It features a Nod
 1. **Clone the repository**
 
    ```bash
-   git clone /Users/abhyodaya/Documents/GitHub/review-rating-app
+   git clone https://github.com/abhyodaya1011/review-rating-app.git
    cd review-rating-app
    ```
 
 2. **Install dependencies**
 
    For backend:
-
-   ```bash
-   cd backend
    npm install
+
    ```
 
    For frontend:
-
-   ```bash
-   cd ../frontend
    npm install
    ```
 
@@ -61,16 +56,11 @@ This is a full-stack application for managing product reviews. It features a Nod
 4. **Run the servers**
 
    In the backend directory:
-
-   ```bash
-   cd backend
    node server.js
+
    ```
 
    In the frontend directory:
-
-   ```bash
-   cd ../frontend
    npm run dev
    ```
 
@@ -87,27 +77,6 @@ The backend provides the following endpoints:
 ### Frontend
 
 The frontend displays the reviews and provides an admin dashboard for managing reviews. It uses React for the UI components.
-
-## Deployment
-
-### Backend
-
-1. **Deploy to Heroku**
-
-   ```bash
-   heroku create
-   git push heroku main
-   heroku config:set MONGODB_URI=your_mongodb_connection_string HUGGING_FACE_API_KEY=your_hugging_face_api_key
-   ```
-
-### Frontend
-
-2. **Deploy to Vercel**
-
-   ```bash
-   cd ../frontend
-   vercel
-   ```
 
 ## Contributing
 
