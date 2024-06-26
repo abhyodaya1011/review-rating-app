@@ -35,7 +35,6 @@ This is a full-stack application for managing product reviews. It features a Nod
 
 2. **Install dependencies**
 
-   npm install
 
    ```
    npm install
@@ -53,11 +52,12 @@ This is a full-stack application for managing product reviews. It features a Nod
 4. **Run the servers**
 
    In the backend directory:
+   ```
    node server.js
-
    ```
 
-   In the frontend directory:
+In the frontend directory:
+   ```
    npm run dev
    ```
 
