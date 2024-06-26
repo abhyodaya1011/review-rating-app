@@ -51,7 +51,7 @@ This is a full-stack application for managing product reviews. It features a Nod
 
 4. **Run the servers**
 
-   In the backend directory:
+In the backend directory:
    ```
    node server.js
    ```
