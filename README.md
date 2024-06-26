@@ -35,12 +35,9 @@ This is a full-stack application for managing product reviews. It features a Nod
 
 2. **Install dependencies**
 
-   For backend:
    npm install
 
    ```
-
-   For frontend:
    npm install
    ```
 
