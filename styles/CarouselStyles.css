@@ -1,0 +1,37 @@
+/* styles/CarouselStyles.css */
+.carousel-container {
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-container .react-multi-carousel-list {
+    padding: 10px;
+}
+
+.carousel-container .react-multi-carousel-item {
+    padding: 0 10px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.custom-dot-list-style {
+    display: none;
+    /* Hide the dots */
+}
+
+.carousel-item-padding {
+    padding: 5px;
+}
+
+.carousel-item-padding-10-px {
+    padding: 10px;
+}
